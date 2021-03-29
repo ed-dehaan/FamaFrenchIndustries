@@ -12,7 +12,7 @@ Macro files are currently available for FF 48, 38, 12, and 5 groupings.
 - [Xue Li](https://foster.uw.edu/academics/degree-programs/phd-program/directory/xue-li/)
 
 
-## Usage & Features
+## Usage
 
 Standard SAS macro usage.  See the top of each file for instructions.
 
