@@ -1,12 +1,21 @@
+option errorabend;
+*option merror mlogic mprint symbolgen;
+option nonotes nosource nosource2;
+*option notes source source2;
+*option logic print symbolgen;
 
 
 /********************************************************************************
-	Author: 	Jess Blocker Smith, derived directly from work of Ed deHaan
+	Author: 	Ed deHaan, with Jess Blocker Smith, Xue Li, and unknown other authors
 				3/24/21	- Xue Li rechecked assignments based on current classifications.  No changes made.
 
 	Macro: 		ind_ff38
 	
 	Purpose: 	to assign Fama French industry codes
+
+	Versions:	1.0 - 	date?	  - original version	
+				1.1 -   03/24/21  - added classifications for SIC codes 900 (Fishing, Hunting and Trapping), 3990 (Miscellaneous Manufacturing Industries), and 6797 (Miscellaneous Investing)
+
 	
 	Notes:		38 Industry classification codes obtained from French's website in May. 2012
 				http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
